@@ -1,0 +1,118 @@
+[
+     {
+        "id": 1,
+        "title": "Senior product manager",
+        "author": "Google LLC",
+        "salary": "$150,000 - $200,000",
+        "description": "We are looking for a senior product manager to lead our team of engineers and designers in developing innovative products that meet the needs of our customers. The ideal candidate will have experience in product management and a deep understanding of user needs.",
+        "responsibility": "Lead the development of new products from ideation to launch. Work closely with cross-functional teams to ensure that products meet customer needs and business goals. Develop and maintain product roadmaps and prioritize features based on customer feedback and business impact.",
+        "contact_information": {
+          "name": "John Doe",
+          "email": "johndoe@google.com",
+          "phone": "(123) 456-7890"
+        },
+        "location": {
+          "city": "Mountain View",
+          "state": "California",
+          "country": "United States"
+        },
+        "experiences": {
+            "title": "Product Manager",
+            "company": "Google LLC",
+            "duration": "3 years"
+          },
+        "educational_requirements": {
+            "degree": "Bachelor's degree in Computer Science or related field",
+            "years of experience": 5
+          },
+        "opportunity_type":["remote","full time"],
+        "img_logo":"https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      },
+     {
+        "id": 2,
+        "title": "Software Developer",
+        "author": "Netflix",
+        "salary": "$160,000 - $300,000",
+        "description": "We are looking for a talented Software Developer to join our remote team. As a Software Developer, you will be responsible for designing, developing, and maintaining software applications that meet the needs of our clients. You will be working with a team of developers, project managers, and other stakeholders to deliver high-quality software solutions.",
+        "responsibility": "The Software Developer will design, develop and maintain software applications to meet client needs, working with cross-functional teams to write clean code and troubleshoot issues. They will stay current with emerging trends and participate in code reviews to maintain quality, ensuring projects are completed on time and within budget. The role is critical to business success and requires a talented and driven individual to join the remote team.",
+        "contact_information": {
+          "name": "John Doe",
+          "email": "towha@google.com",
+          "phone": "(123) 996-7880"
+        },
+        "location": {
+          "city": "Mountain View",
+          "state": "California",
+          "country": "United States"
+        },
+        "experiences": {
+            "title": "Software Developer",
+            "company": "Netflix",
+            "duration": "3 years"
+          },
+        "educational_requirements": {
+            "degree": "Bachelor's degree in Computer Science or related field",
+            "years of experience": 5
+          },
+        "opportunity_type":["remote","full time"],
+        "img_logo":"https://i.ibb.co/mJFSCK7/netflix-4-1.png"
+      },
+     {
+        "id": 3,
+        "title": "Frontend Developer",
+        "author": "Airbnb",
+        "salary": "$50,000 - $100,000",
+        "description": "We are seeking a talented Frontend Developer to join our team. In this role, you will be responsible for creating visually appealing and intuitive web applications that meet the needs of our clients. You will be working with a team of developers, designers, and other stakeholders to deliver high-quality frontend solutions.",
+        "responsibility": "As a Frontend Developer, you will develop and implement user-facing features using HTML, CSS, and JavaScript, while collaborating with designers to ensure visual appeal and intuitiveness. You will optimize web applications for speed and scalability, ensure cross-device compatibility, participate in code reviews, and stay up-to-date with emerging technologies.",
+        "contact_information": {
+          "name": "John Doe",
+          "email": "taheung@google.com",
+          "phone": "(123) 814-78754"
+        },
+        "location": {
+          "city": "Mountain View",
+          "state": "California",
+          "country": "United States"
+        },
+        "experiences": {
+            "title": "Product Manager",
+            "company": "Google LLC",
+            "duration": "3 years"
+          },
+        "educational_requirements": {
+            "degree": "Bachelor's degree in Computer Science or related field",
+            "years of experience": 5
+          },
+        "opportunity_type":["remote","full time"],
+        "img_logo":"https://i.ibb.co/nR93F4t/Group-10021.png"
+      },
+     {
+        "id": 4,
+        "title": "UI/UX Designer",
+        "author": "Tesla",
+        "salary": "$100,000 - $200,000",
+        "description": "The UI/UX Designer will be responsible for designing and implementing the user interface and user experience for web and mobile applications, working with cross-functional teams to ensure a seamless and intuitive user experience.",
+        "responsibility": "The UI/UX Designer will design and implement the user interface and experience for web and mobile applications, ensuring a seamless and intuitive user experience.",
+        "contact_information": {
+          "name": "John Doe",
+          "email": "ownlod@google.com",
+          "phone": "(123) 456-74570"
+        },
+        "location": {
+          "city": "Mountain View",
+          "state": "California",
+          "country": "United States"
+        },
+        "experiences": {
+            "title": "Product Manager",
+            "company": "Google LLC",
+            "duration": "3 years"
+          },
+        "educational_requirements": {
+            "degree": "Bachelor's degree in Computer Science or related field",
+            "years of experience": 5
+          },
+        "opportunity_type":["remote","full time"],
+        "img_logo":"https://i.ibb.co/10CDv9d/tesla-9-1.png"
+      }
+    ]

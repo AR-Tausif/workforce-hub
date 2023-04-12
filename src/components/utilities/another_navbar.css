@@ -1,0 +1,18 @@
+.detailViewEl{
+    height: 400px;
+    background-image: url("public/Group-10022.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.margin__long__distance{
+    margin-top: 100px;
+}
+
+.purple__deep{
+    color: #A020F0;
+}
+
+.Active{
+    font-weight: bold;
+    color: #A020F0;
+}

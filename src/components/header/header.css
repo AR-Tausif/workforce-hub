@@ -1,0 +1,29 @@
+#header-image{
+    width: 110%;
+}
+
+.header-size-full{
+    height: 100vh;
+}
+.header-heading-tag{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+}
+.header-heading-tag span{
+    color: #7E90FE;
+}
+.header-paragraph{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* utilites */
+
+.btn-default-hub{
+    background: #9873FF;
+    color: #fff;
+    padding: 12px;
+}
