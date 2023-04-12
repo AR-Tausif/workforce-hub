@@ -1,7 +1,7 @@
 import React from 'react';
 
 const StoredJob = ({job}) => {
-    console.log(job);
+
     return (
         <div className="col p-3 border rounded mt-5">
             <div className="d-flex justify-content-between align-items-center gap-3">
@@ -13,13 +13,12 @@ const StoredJob = ({job}) => {
                     <p>{job.author}</p>
                     <button className="btn btn-outline-primary">
                         {
-                            job.opportunity_type[0]
+                            job.job_type
                         }
                         </button>
                         <button className="btn btn-outline-primary ms-2">
                             {
-                                job.opportunity_type[1]
-                            }
+                                job.duty_time                            }
                         </button>
                         <p className="mt-2">
                             <span>

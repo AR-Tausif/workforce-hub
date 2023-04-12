@@ -12,7 +12,7 @@ const Header = () => {
                 <button className="btn btn-default-hub">Get Started</button>
             </div>
             <div className="col-6">
-                <img id="header-image" src="public/P3OLGJ1.png" alt="" />
+                <img id="header-image" src="https://i.ibb.co/xHrX3BR/P3-OLGJ1-copy-1.png" alt="" />
             </div>
             </div>
         </section>

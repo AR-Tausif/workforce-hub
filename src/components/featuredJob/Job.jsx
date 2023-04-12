@@ -18,10 +18,10 @@ const Job = ({jobInfos}) => {
                 <p>{jobInfos.author}</p>
                 <div>
                     <button className="btn btn-outline-info">
-                        {jobInfos.opportunity_type[0]}
+                        {jobInfos.job_type}
                     </button>
                     <button className="btn btn-outline-info ms-3">
-                        {jobInfos.opportunity_type[1]}
+                        {jobInfos.duty_time}
                     </button>
                 </div>
                 <div className="d-flex gap-4">

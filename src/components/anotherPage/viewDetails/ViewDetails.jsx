@@ -21,8 +21,7 @@ const ViewDetails = () => {
     }, [data, location.state.id])
         const detailsEl = ()=> <Detail job={job}></Detail>;
         const Massege = <h1> Data loading....</h1>
-// console.log(job);
-console.log(location);
+
     return (
         <div>
            <AnotherNavbar />

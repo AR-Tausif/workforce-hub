@@ -6,25 +6,30 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import ViewDetails from './components/anotherPage/viewDetails/ViewDetails'
 import AppliedJob from './components/appliedJobs/AppliedJob'
 import Statistics from './components/statisticsPage/Statistics'
+import ErroPage from './components/errorPage/Error'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <h1>Has no data....</h1>
+    errorElement: <ErroPage/>
   },
   {
-    path: "/statistics",
+    path: "statistics",
     element: <Statistics />
   },
   {
-    path: "/details",
+    path: "details",
     element: <ViewDetails />,
-    loader: ()=> fetch("/public/data.json"),
+    loader: async ()=> {
+      const res = await fetch("https://raw.githubusercontent.com/AR-Tausif/needed-images/main/data.json");
+      const data = await res.json();
+      return data;
+    },
   },
   {
-    path: "/appliedJobs",
+    path: "appliedJobs",
     element: <AppliedJob />
     
   }

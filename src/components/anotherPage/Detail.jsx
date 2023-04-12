@@ -20,7 +20,6 @@ const Detail = ({job}) => {
     return (
     <div className="d-flex align-items-center justify-content-center gap-4">
         <div className="border rounded p-5">
-            <h1>{job.id}</h1>
             <p> <span className="fw-bold">Job Description:</span> {job.description}</p>
             <p> <span className="fw-bold">Job Responsibility:</span>{job.responsibility}</p>
             <p className="fw-bold">Educational Requirements: </p>

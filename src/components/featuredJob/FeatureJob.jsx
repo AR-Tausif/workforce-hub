@@ -6,7 +6,7 @@ import Job from './Job';
 const FeatureJob = ({jobs}) => {
     const [jobInfo, setJobInfo] = useState('');
     useEffect(()=>{
-        fetch("public/data.json")
+        fetch("https://raw.githubusercontent.com/AR-Tausif/needed-images/main/data.json")
         .then(res => res.json())
         .then(data=> {
             // console.log(data);
